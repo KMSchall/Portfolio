@@ -1,14 +1,63 @@
-
-
+/**************TAG SELECTORS*************/
 body {
   background-color: black;
+  margin-top: 0%;
+  padding: 0px;
+  margin: 0px;
 
+}
+
+
+/**************Container Class**********/
+
+
+.div_1{
+  background-color: whitesmoke;
+  border: 2px solid white;
+  padding: 4px;
+}
+.div_2{
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  margin-left: 212px;
+  margin-bottom: 0px;
+  border: 20px solid white;
+}
+.div_3{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+
+  margin-left: 452px;
+  margin-top: 0px;
+
+  border: 10px solid white;
+}
+
+.div_4{
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  margin-left: 672px;
+  margin-top: 0px;
+  border-left: 0px;
+  border-top: 0px;
 }
 
 h1{
   color: white;
+  margin-top: 0%;
 }
-
+h2{
+  color: white;
+}
+h3{
+  color: white;
+}
 
 hr{
   border-style: none;
@@ -16,4 +65,121 @@ hr{
   width: 2%;
   border-color: white;
   border-width: 5px;
+}
+
+/*img{ filter: blur(10px);}*/
+.blade{filter: none;}
+.back{background-color: lightcyan;}
+.sepia {filter: sepia(100%);}
+.brightness {filter: brightness(250%);}
+.contrast {filter: contrast(200%);}
+.grayscale {filter: grayscale(100%);}
+.huerotate {filter: hue-rotate(180deg);}
+.invert {filter: invert(100%);}
+.opacity {filter: opacity(50%);}
+.saturate {filter: saturate(7);}
+
+
+/**************CLASS SELECTORS*************/
+
+
+.circular{
+  border-radius: 10%;
+}
+
+.pic_1 {
+  width: 200px;
+  height: auto;
+  opacity: 0.2;
+}
+
+.pic_2 {
+  width: 200px;
+  height: auto;
+  opacity: 0.1;
+}
+.pic_3 {
+  width: 200px;
+  height: auto;
+  opacity: 0.2;
+}
+
+.pic_4 {
+  width: 200px;
+  height: auto;
+  opacity: 0.2;
+}
+
+.pic_5 {
+  width: 200px;
+  height: auto;
+  opacity: 0.2;
+}
+
+.pic_6 {
+  width: 200px;
+  height: auto;
+  opacity: 0.2;
+}
+.pic_7 {
+  width: 200px;
+  height: auto;
+  opacity: 0.2;
+}
+
+.pic_8 {
+  width: 200px;
+  height: auto;
+  opacity: 0.2;
+}
+
+/**************SUDOCLASS *************/
+.pic_1:hover{
+  border-radius: 20%;
+  opacity: 1;
+  filter: none;
+}
+
+.pic_2:hover{
+  border-radius: 20%;
+  opacity: 1;
+  filter: sepia(100%);
+}
+
+.pic_3:hover{
+  border-radius: 20%;
+  opacity: 1;
+  filter: brightness(250%);
+}
+
+.pic_4:hover{
+  border-radius: 20%;
+  opacity: 1;
+  filter: contrast(200%);
+}
+
+.pic_5:hover{
+  border-radius: 20%;
+  opacity: 1;
+  filter: grayscale(100%);
+}
+
+.pic_6:hover{
+  border-radius: 20%;
+  filter: sepia(100%);
+}
+
+.pic_7:hover{
+  border-radius: 20%;
+  filter: sepia(100%);
+}
+
+.pic_8:hover{
+  border-radius: 20%;
+  filter: sepia(100%);
+}
+
+/**************ID SELECTORS*************/
+#heading {
+  color: black;
 }
