@@ -48,6 +48,134 @@ body {
   border-top: 0px;
 }
 
+
+.div_5{
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  margin: 0px;
+  border-left: 0px;
+  border-top: 0px;
+}
+
+.div_6{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  position: relative;
+  left: 200px;
+  bottom: 200px;
+  border-left: 0px;
+  border-top: 0px;
+}
+
+.div_7{
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  position: relative;
+  left: 400px;
+  bottom: 400px;
+  border-left: 0px;
+  border-top: 0px;
+}
+
+.div_8{
+  background-color: greenyellow;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  position: relative;
+  left: 600px;
+  bottom: 600px;
+  border-left: 0px;
+  border-top: 0px;
+}
+
+.div_9{
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  position: relative;
+  left: 800px;
+  bottom: 800px;
+  border-left: 0px;
+  border-top: 0px;
+}
+
+.div_9{
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  position: relative;
+  left: 800px;
+  bottom: 800px;
+  border-left: 0px;
+  border-top: 0px;
+}
+
+.div_10{
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  position: relative;
+  left: 1000px;
+  bottom: 1000px;
+  border-left: 0px;
+  border-top: 0px;
+}
+
+.div_11{
+  background-color: orangered;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  position: relative;
+  left: 1200px;
+  bottom: 1200px;
+  border-left: 0px;
+  border-top: 0px;
+}
+
+.div_12{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  padding: 0px;
+  position: relative;
+  left: 1400px;
+  bottom: 1400px;
+  border-left: 0px;
+  border-top: 0px;
+}
+
+
+.div_pic{
+  position: relative;
+  left: 0px;
+  bottom: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 h1{
   color: white;
   margin-top: 0%;
@@ -182,4 +310,5 @@ hr{
 /**************ID SELECTORS*************/
 #heading {
   color: black;
+  font-weight: normal;
 }
